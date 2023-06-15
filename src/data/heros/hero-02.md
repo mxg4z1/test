@@ -7,5 +7,5 @@ facebookIcon: "FaFacebookF"
 googleIcon: "FaGoogle"
 heroCategory: Mr Junkaway
 heroTitle: Live better <br /> with less clutter
-heroContactInfo: dan@mrjunkaway.com
+heroContactInfo: Dan@mrjunkaway.com
 ---

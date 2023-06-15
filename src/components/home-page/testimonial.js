@@ -43,7 +43,6 @@ function Testimonial({ testimonialItems }) {
             </div>
           </div>
           <Swiper
-            // autoplay={{ delay: 4000, disableOnInteraction: false }}
             pagination={false}
             spaceBetween={30}
             slidesPerView={2}
@@ -72,7 +71,7 @@ function Testimonial({ testimonialItems }) {
                   <div className="testimonial-block">
                     <div className="inner-box relative before:absolute before:top-0 before:left-0 before:w-full before:h-[5px] before:bg-primary before:transition-all before:duration-500 before:scale-0 before:hover:scale-100">
                       <div className="quote flex justify-end text-primary text-[30px] leading-[60px] py-[10px]">
-                        <Icon />
+                        {/* <Icon /> */}
                       </div>
                       <h2 className="testimonial-author">
                         {testimonialItem?.authorName}

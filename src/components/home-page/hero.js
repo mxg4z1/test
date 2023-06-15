@@ -14,7 +14,7 @@ function Hero({ heroItems }) {
     <Swiper
       className="hero-area"
       autoplay={{
-        delay: 4000,
+        delay: 7000,
         disableOnInteraction: false,
       }}
       speed={1000}
@@ -67,14 +67,16 @@ function Hero({ heroItems }) {
                       </div>
                     </div>
                     <div className="md:col-span-10 col-span-12">
-                      <div
-                        className="text-[18px] leading-8 tracking-[5px] text-white uppercase md:mb-[30px] mb-[10px] block hero-slidedown delay-300"
-                        dangerouslySetInnerHTML={{
-                          __html: heroItem?.heroCategory,
-                        }}
-                      />
+                      <div className="text-[18px] leading-8 tracking-[5px] text-white uppercase md:mb-[30px] mb-[10px] block hero-slidedown delay-300">
+                        <Image
+                          src="/images/logo/logo-footer.webp"
+                          alt="Logo"
+                          width={180}
+                          height={70}
+                        />
+                      </div>
                       <h2
-                        className="md:text-[100px] md:leading-[100px] text-[50px] leading-[1.2] text-white mb-[90px] hero-slidedown delay-[600ms]"
+                        className="md:text-[100px] md:leading-[100px] text-[44px] leading-[1.2] text-white mb-[90px] hero-slidedown delay-[600ms]"
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroTitle,
                         }}
@@ -89,7 +91,7 @@ function Hero({ heroItems }) {
                     </div>
                   </div>
                 </div>
-                <div className="info text-white hover:text-primary transition-all text-[14px] uppercase absolute bottom-[100px] sm:right-[70px] right-auto z-[2]">
+                <div className="info text-white hover:text-primary transition-all text-lg absolute bottom-[100px] sm:right-[70px] right-auto z-[2]">
                   <Link href="tel:+contact@Rustictudio.co">
                     {heroItem?.heroContactInfo}
                   </Link>

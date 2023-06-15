@@ -44,7 +44,7 @@ function About() {
           </div>
           <div className={aboutImage}>
             <Image
-              src="/4.jpg"
+              src="/xseed1.jpg"
               alt="Service Image"
               width={390}
               height={760}

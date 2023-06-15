@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import Head from "next/head";
 import { getAllItems, getFeaturedItems } from "../lib/items-util";
 import HeaderOne from "../components/header/header-1";
 import Hero from "../components/home-page/hero";
@@ -8,15 +7,14 @@ import About from "../components/home-page/about";
 import Testimonial from "../components/home-page/testimonial";
 import Craigslist from "../components/home-page/craigslist";
 import LatestProject from "../components/home-page/latest-project";
+import SEO from "../../next-seo.config";
+import { NextSeo } from "next-seo";
 
 function HomePage(props) {
-  console.log(props.heroItems);
+  // console.log(props.heroItems);
   return (
     <Fragment>
-      <Head>
-        <title>Junk removal by Mr. Junkaway</title>
-        <meta name="description" content=". " />
-      </Head>
+      <NextSeo {...SEO} />
       <HeaderOne />
       <Hero heroItems={props.heroItems} />
       <Services services={props.services} />

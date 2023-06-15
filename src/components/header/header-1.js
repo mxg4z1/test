@@ -66,7 +66,7 @@ function HeaderOne() {
                     <li className={router.pathname == "/posts" ? "active" : ""}>
                       <Link href="#testimonials">
                         <a>
-                          <span>Reviews</span>
+                          <span>Testimonials</span>
                         </a>
                       </Link>
                     </li>
@@ -78,7 +78,7 @@ function HeaderOne() {
                     <li
                       className={router.pathname == "/contact" ? "active" : ""}
                     >
-                      <Link href="#">
+                      <Link href="#footer">
                         <a>
                           <span>Contact</span>
                         </a>

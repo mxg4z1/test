@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="footer-area md:pt-[120px] pt-[60px]">
+    <footer id="footer" className="footer-area md:pt-[120px] pt-[60px]">
       <div className="footer-top">
         <div className="custom-container flex justify-center">
           <div className="lm:grid xl:grid-cols-4 lm:grid-cols-12 xl:gap-x-[30px] gap-[30px]">
@@ -27,7 +27,7 @@ function Footer() {
                     <br />
                     <Link href="mailto:dan@mrjunkaway.com">
                       <a className="hover:text-black transition-all mb-2">
-                        dan@mrjunkaway.com
+                        Dan@mrjunkaway.com
                       </a>
                     </Link>
                   </div>
